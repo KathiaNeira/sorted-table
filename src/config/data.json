@@ -1,0 +1,68 @@
+{
+  "columns": [
+    {
+      "id": "name",
+      "label": "Nombre"
+    },
+    {
+      "id": "lastname",
+      "label": "Apellido"
+    },
+    {
+      "id": "email",
+      "label": "Email"
+    }
+  ],
+  "data": [
+    {
+      "name": "Juliana",
+      "lastname": "Perez",
+      "email": "jperez@hotmail.com"
+    },
+    {
+      "name": "Patricia",
+      "lastname": "Fernandez",
+      "email": "patty@gmail.com"
+    },
+    {
+      "name": "Hugo",
+      "lastname": "Lombardi",
+      "email": "huguito_158@hotmail.com"
+    },
+    {
+      "name": "Armando",
+      "lastname": "Mendoza",
+      "email": "armando_mendoza1@hotmail.com"
+    },
+    {
+      "name": "Geoge",
+      "lastname": "Lina",
+      "email": "george125lina@hotmail.com"
+    },
+    {
+      "name": "Mark",
+      "lastname": "Slon",
+      "email": "slon1254@hotmail.com"
+    },
+    {
+      "name": "Jacskon",
+      "lastname": "Hunt",
+      "email": "jperez@hotmail.com"
+    },
+    {
+      "name": "Dereck",
+      "lastname": "Shepherd",
+      "email": "deshepherd@outlook.com"
+    },
+    {
+      "name": "Samantha",
+      "lastname": "Antonelle",
+      "email": "santo123@prueba.com"
+    },
+    {
+      "name": "Clementine",
+      "lastname": "Gil",
+      "email": "cgil@gmail.com"
+    }    
+  ]
+}
