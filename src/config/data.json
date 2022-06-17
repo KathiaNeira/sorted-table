@@ -2,15 +2,18 @@
   "columns": [
     {
       "id": "name",
-      "label": "Nombre"
+      "label": "Nombre",
+      "order": true
     },
     {
       "id": "lastname",
-      "label": "Apellido"
+      "label": "Apellido",
+      "order": true
     },
     {
       "id": "email",
-      "label": "Email"
+      "label": "Email",
+      "order": true
     }
   ],
   "data": [
@@ -42,7 +45,7 @@
     {
       "name": "Mark",
       "lastname": "Slon",
-      "email": "slon1254@hotmail.com"
+      "email": "mslon1254@hotmail.com"
     },
     {
       "name": "Jacskon",

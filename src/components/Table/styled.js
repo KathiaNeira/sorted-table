@@ -9,13 +9,18 @@ export const TableHeader = styled.div`
   `
 
 export const ItemHeader = styled.div`
+  display: flex;
+  justify-content: center;
   color: #fff;
   font-weight: 700;
-  cursor: pointer;
 `
 
 export const Table = styled.div`
   background: #FFF;
+`
+
+export const ArrowWrapper = styled.div `
+  margin-left: 10px;
 `
 
 const TableBody = styled.div`

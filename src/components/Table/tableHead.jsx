@@ -1,15 +1,32 @@
-import React from 'react'
-import { TableHeader, ItemHeader } from './styled'
+import React, { useState } from 'react'
+import { IconArrow } from '@components'
+import { TableHeader, ItemHeader, ArrowWrapper } from './styled'
 
 export const TableHead = ({
   columns,
-  numberRows
+  handleOrder
 }) => {
+  const [order, setOrder] = useState('asc')  
+  const [selected, setSelected] = useState(null)
+
+  const handleClick = (id, index) => {
+    setOrder(order === 'asc' ? 'desc' : 'asc')
+    setSelected(index)
+    handleOrder(id, order)
+  }
+
   return (
-    <TableHeader numberRows={numberRows}>
-      {columns.map(element => 
+    <TableHeader numberRows={columns.length}>
+      {columns.map((element, index) => 
         <ItemHeader key={element.id}>
           {element.label}
+          {element.order && 
+            <ArrowWrapper >
+              <IconArrow
+                onClick={() => handleClick(element.id, index)} selected={selected === index && 'selected'}
+              />
+            </ArrowWrapper>
+          }
         </ItemHeader>
       )}
     </TableHeader>
